@@ -28,7 +28,7 @@
 ## Installation
 
 ```bash
-npm install @robingenz/capacitor-firebase-app-check
+npm install @robingenz/capacitor-firebase-app-check@dev
 npx cap sync
 ```
 

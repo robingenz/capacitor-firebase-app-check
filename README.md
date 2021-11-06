@@ -34,6 +34,15 @@ npx cap sync
 
 Add Firebase to your project if you haven't already ([Android](https://firebase.google.com/docs/android/setup)).
 
+### Android
+
+See [Set up your Firebase project](https://firebase.google.com/docs/app-check/android/safetynet-provider#project-setup) and follow the instructions to set up your Firebase project correctly.
+
+#### Variables
+
+This plugin will use the following project variables (defined in your app’s `variables.gradle` file):
+- `$firebaseAppcheckSafetynetVersion` version of `com.google.firebase:firebase-appcheck-safetynet` (default: `16.0.0-beta03`)
+
 ## Configuration
 
 No configuration required for this plugin.
